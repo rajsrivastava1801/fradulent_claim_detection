@@ -34,24 +34,9 @@ Random Forest was chosen for production due to its better overall performance.
 - Feature Distributions
 - ROC Curve Comparison
 
-## Files
-
-- `Fraudulent_Claim_Detection_Starter.ipynb`: Full notebook with all steps and results.
-- `insurance_claims.csv`: Source dataset.
-- `Fraud_Claim_Report_Complete_Blue.docx`: Final report with visuals.
-- `Fraud_Claim_Evaluation_Simple_Academic_PPT.pptx`: Academic-style presentation.
-
 ## Recommendations
 
-- Deploy Random Forest model to flag high-risk claims.
-- Manually review claims with high fraud scores.
-- Regularly retrain the model with updated data.
-
-## Assumptions
-
-- Dataset is a representative sample of real claims.
-- Rare categories were grouped, and high-cardinality identifiers were excluded.
-- Some features were simplified or excluded to improve model performance.
+- Use Random Forest model to flag high-risk claims.
 
 ---
 
